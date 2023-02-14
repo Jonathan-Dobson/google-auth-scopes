@@ -420,4 +420,8 @@ export const scopesList = [
   "https://www.googleapis.com/auth/youtubepartner-channel-audit",
   "https://www.googleapis.com/auth/yt-analytics-monetary.readonly",
   "https://www.googleapis.com/auth/yt-analytics.readonly"
-]
+] as const
+
+export type ScopeType = typeof scopesList[number]
+
+export type ScopeListType = ScopeType[]
