@@ -1,0 +1,29 @@
+{
+  "name": "google-auth-scopes",
+  "version": "1.0.1",
+  "description": "A typed array of all possible google authorization scopes with autosuggest.",
+  "main": "scopes.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonathan-Dobson/google-auth-scopes-list.git"
+  },
+  "keywords": [
+    "typed",
+    "array",
+    "google",
+    "authorization",
+    "scopes",
+    "auto-complete",
+    "auto-suggest",
+    "typescript"
+  ],
+  "author": "Jonathan Dobson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jonathan-Dobson/google-auth-scopes-list/issues"
+  },
+  "homepage": "https://github.com/Jonathan-Dobson/google-auth-scopes-list#readme"
+}
